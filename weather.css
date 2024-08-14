@@ -1,0 +1,168 @@
+body {
+    background: url('/digital-lavender-natural-landscape.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    color: white;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+*{
+    /* border: 1px solid red; */
+}
+
+.container {
+    background-color: rgba(131, 84, 139, 0.5);
+    width: 90%;
+    max-width: 100vw;
+    margin: 10vh auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.heading {
+    text-align: center;
+    padding: 10px 0;
+    font-size: 25px;
+}
+
+.search_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#city-input {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.search-bar {
+    width: 30%;
+    height: 50px;
+    margin-top: 5px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    position: relative;
+    background: none;
+}
+
+.search-bar input{
+    width: 100%;
+    height: 100%;
+    display: block;
+    border-radius: 20px;
+    /* padding: 15px; */
+    outline: none;
+    border: none;
+    background: none;
+    color: white;
+}
+
+input::placeholder{
+    color: white;
+    font-size: 15px;
+}
+
+#search-button{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 55px;
+    height: 100%;
+    background: none;
+    border-radius: 18px;
+    color: white;
+    border: none;
+    transition: 0.2s;
+}
+
+#search-button:hover{
+
+    background-color: rgba(255, 255, 255, 0.534);
+    color: black;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    /* background-color: aqua; */
+}
+
+.col {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid white;
+    margin: 10px;
+    flex: 1;
+    min-width: 250px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 15px;
+   
+}
+
+.col div {
+    margin-bottom: 10px;
+}
+
+.col2 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.info {
+    font-size: 30px;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+}
+
+.image img {
+    max-width: 100px;
+    max-height: 100px;
+    object-fit: contain;
+}
+
+.daily-forecast-section{
+    margin-top: 35px;
+    padding: 25px 0px;
+    background: rgba(15, 15, 15,0.7);
+}
+
+.daily-forecast-section .title{
+    font-size: 20px;
+    text-align: center;
+}
+
+.daily-forecast{
+    display: flex;
+    justify-content: center;
+    margin-left: 15px;
+    margin-right: 15px;
+    box-sizing: content-box;
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.daily-forecast .card{
+    margin-top: 20px;
+    margin-left: 30px;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    flex-shrink: 0;
+}
+ 
